@@ -1,10 +1,12 @@
-<html>
-<head>
-<link rel="stylesheet" href="style/mystyle.css" type="text/css" />
-</head>
-<body>
-<div>
-${greating}
+<div class="venus-product-wrapper">
+#foreach($s in $st)
+<div class="product-item">
+<img src=${s.pic}>
+<div class="product-item-des">
+<span class="product-item-des-title">${s.title}</span>
+<span class="product-item-des-origin-price">${s.originPrice}</span>
+<span class="product-item-des-promotion-price">${s.promotionPrice}</span>
 </div>
-</body>
-</html>
+</div>
+#end
+</div>

@@ -1,0 +1,11 @@
+<body>  
+        <div class="content">  
+            #parse("layout/common/header.vm")  
+            <div class="content-info">  
+                <div class="content-main">  
+                    $screen_content  
+                </div>  
+            </div>  
+            #parse("layout/common/footer.vm")  
+        </div>  
+</body

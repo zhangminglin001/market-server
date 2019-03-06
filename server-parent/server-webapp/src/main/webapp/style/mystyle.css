@@ -1,0 +1,38 @@
+.venus-product-wrapper{
+
+    padding: 8px;
+    background: #eee;
+    display: block;
+
+
+}
+.product-item{
+	width: 49%;
+	text-align: center;
+	color: #ff8989;
+	font-size: 16px;
+	display: inline-block;
+}
+.product-item img{
+	width: 100%;
+	height: auto;
+}
+.product-item .product-item-des{
+/*	height: 8%;*/
+margin:20px;
+}
+.product-item .product-item-des span{
+    display: block;
+    text-align: center;
+    height: 20px;
+    padding: 2px;
+}
+.product-item .product-item-des .product-item-des-origin-price{
+	text-decoration: line-through;
+	color: #444
+
+}
+.product-item .product-item-des .product-item-des-title{
+	color: #000;
+	font-size:20px
+}
